@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Services Platform for Hinterland Communities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .service-card h2 {
+            color: #006400;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>e-Services Platform for Hinterland Communities</h1>
+        <p>Enhancing Access to Essential Government Services</p>
+    </header>
+
+    <nav>
+        <a href="#birth-certificates">Birth Certificates</a>
+        <a href="#marriage-certificates">Marriage Certificates</a>
+        <a href="#tin-certificates">TIN Certificates</a>
+        <a href="#passports">Passports</a>
+        <a href="#other-services">Other Services</a>
+    </nav>
+
+    <div class="container">
+        <section id="birth-certificates" class="service-card">
+            <h2>Birth Certificates</h2>
+            <p>Apply for birth certificates online. Fill out the form and submit your application without the need to travel.</p>
+            <button>Apply Now</button>
+        </section>
+
+        <section id="marriage-certificates" class="service-card">
+            <h2>Marriage Certificates</h2>
+            <p>Request a marriage certificate easily through our online platform.</p>
+            <button>Apply Now</button>
+        </section>
+
+        <section id="tin-certificates" class="service-card">
+            <h2>TIN Certificates</h2>
+            <p>Get your Taxpayer Identification Number (TIN) certificate issued online.</p>
+            <button>Apply Now</button>
+        </section>
+
+        <section id="passports" class="service-card">
+            <h2>Passports</h2>
+            <p>Apply for a passport without the hassle of long waits and travel.</p>
+            <button>Apply Now</button>
+        </section>
+
+        <section id="other-services" class="service-card">
+            <h2>Other Services</h2>
+            <p>Access additional government services online, including tint permits and more.</p>
+            <button>Explore Services</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 e-Services Platform for Hinterland Communities. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
